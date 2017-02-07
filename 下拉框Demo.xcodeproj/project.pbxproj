@@ -15,6 +15,7 @@
 		9346902A1BFDB1E100A8704A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 934690281BFDB1E100A8704A /* LaunchScreen.storyboard */; };
 		934690351BFDB1E200A8704A /* ___DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 934690341BFDB1E200A8704A /* ___DemoTests.m */; };
 		934690401BFDB1E200A8704A /* ___DemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9346903F1BFDB1E200A8704A /* ___DemoUITests.m */; };
+		9346904F1BFDB20900A8704A /* CustomMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 9346904E1BFDB20900A8704A /* CustomMenu.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		9346903B1BFDB1E200A8704A /* 下拉框DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "下拉框DemoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9346903F1BFDB1E200A8704A /* ___DemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "___DemoUITests.m"; sourceTree = "<group>"; };
 		934690411BFDB1E200A8704A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9346904D1BFDB20900A8704A /* CustomMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomMenu.h; sourceTree = "<group>"; };
+		9346904E1BFDB20900A8704A /* CustomMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomMenu.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				9346901E1BFDB1E100A8704A /* AppDelegate.m */,
 				934690201BFDB1E100A8704A /* ViewController.h */,
 				934690211BFDB1E100A8704A /* ViewController.m */,
+				9346904D1BFDB20900A8704A /* CustomMenu.h */,
+				9346904E1BFDB20900A8704A /* CustomMenu.m */,
 				934690231BFDB1E100A8704A /* Main.storyboard */,
 				934690261BFDB1E100A8704A /* Assets.xcassets */,
 				934690281BFDB1E100A8704A /* LaunchScreen.storyboard */,
@@ -273,6 +278,7 @@
 				934690221BFDB1E100A8704A /* ViewController.m in Sources */,
 				9346901F1BFDB1E100A8704A /* AppDelegate.m in Sources */,
 				9346901C1BFDB1E100A8704A /* main.m in Sources */,
+				9346904F1BFDB20900A8704A /* CustomMenu.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
